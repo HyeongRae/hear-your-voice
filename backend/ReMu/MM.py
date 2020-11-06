@@ -2,7 +2,7 @@ import requests
 import json
 
 def send(text, path):
-    requests.post('https://meeting.ssafy.com/hooks/k13xxxszfp8z8ewir4qndiw63c', 
+    requests.post('MMlink', 
         data=json.dumps({"attachments": [{
             "color": "#FF8000",
             "text": str(text),
