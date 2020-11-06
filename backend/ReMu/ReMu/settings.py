@@ -125,7 +125,6 @@ DATABASES = {
         'ENGINE': 'djongo',
         'NAME': 'spotify',
         'CLIENT' :{
-            #'host' : 'mongodb://root:sSLe2f46tf3EeLo3Eo9tj94cmEcVvERf3D3bBgVfcs@j3b302.p.ssafy.io:8022/admin'
             'host' : 'mongodb://localhost:27017'
         }
     }
@@ -164,7 +163,7 @@ USE_L10N = True
 
 USE_TZ = True
 
-BOT_URL = 'https://meeting.ssafy.com/hooks/k13xxxszfp8z8ewir4qndiw63c'
+#BOT_URL = 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
